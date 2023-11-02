@@ -10,11 +10,9 @@
   }
   
   #logo {
-    /* Initial state */
     width: 475px;
     opacity: 1;
     
-    /* Apply the animation */
     animation: logoAnimation 5s forwards;
   }
 
@@ -73,8 +71,8 @@ body > header {
 
 .gallery {
     display: flex;
-    flex-direction: row; /* change to row for horizontal layout */
-    flex-wrap: wrap; /* wrap items to next row if they don't fit */
+    flex-direction: row; 
+    flex-wrap: wrap; 
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -171,7 +169,6 @@ body > header {
 
     .card li {
         /* position: relative; */
-        /* padding-left: 1.5em; */
         flex-basis: 325px;
     }
 
